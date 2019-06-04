@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Home"
+    url: https://anintelligentfool.github.io/
+  - title: "Blog"
+    url: https://anintelligentfool.github.io/blog/
+  - title: "About"
+    url: https://anintelligentfool.github.io/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
