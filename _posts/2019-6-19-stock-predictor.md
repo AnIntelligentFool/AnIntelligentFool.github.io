@@ -1,12 +1,13 @@
 ﻿---
-title:  "Speech Recognition System"
+title:  "Stock price predictor"
 header:
-  teaser: "/assets/images/TFG/TFG1.JPG"
+  teaser: "/assets/images/STOCKS/stockspredicting.JPG"
 tags:
-  - Speech Recognition
+  - Stock price predictor
   - Machine Learning
-  - Matlab
-  - Thesis
+  - Python
+  - RNN
+  - LSTM
 ---
 
 Hello WORLD
