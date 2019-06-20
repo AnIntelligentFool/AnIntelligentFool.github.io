@@ -11,7 +11,7 @@ tags:
 ---
 
 # Introduction
-My ambitious about knowing more about stock investing started a year ago, first of all I bought my first stock related book: “Stock investing for dummies” by Paul Mladjenovic.
+My ambition about knowing more about stock investing started a year ago, first of all I bought my first stock related book: “Stock investing for dummies” by Paul Mladjenovic.
 As soon as I was getting the technical knowledge and seeing the important factors that we should have before investing on a company I thought that maybe there was some technical or software that would be helpful, or be able to “predict” the future.
 
 As I already had the knowledge about programming and Machine learning was getting more and more popular, I decided to start learning it by myself and look at me, I am already writing my first post about a stock predictor (and it will not be the last one).
