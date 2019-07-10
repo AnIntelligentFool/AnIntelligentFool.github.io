@@ -40,7 +40,7 @@ looking like this right now:
 
 ![project1](/assets/images/PROJECT/Table1.jpg){:class="img-responsive center-image"}
 
-Once we have that table, I will append each latitude and longitude to the PostcalCode, for this purpose, I will use a simple inner join because I already have a .csv file from this page: https://cocl.us/Geospatial_data , the code for this will look like this:
+Once we have that table, I will append each latitude and longitude to the PostcalCode, for this purpose, I will use a simple inner join because I already have a .csv file from this page: ["Latitude and Longitude"](https://cocl.us/Geospatial_data) , the code for this will look like this:
 
 ``` python
 #For SQL purpose I will make Postal Code as only one Word: PostalCode
