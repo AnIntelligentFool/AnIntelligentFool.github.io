@@ -223,7 +223,7 @@ Now checking the data of each cluster we can see what is the most common buildin
 
 ![project10](/assets/images/PROJECT/cluster1.JPG){:class="img-responsive center-image"}
 
-**CLUSTER 0 (BLUE)**
+**CLUSTER 2 (BLUE)**
 
 ![project11](/assets/images/PROJECT/cluster2.JPG){:class="img-responsive center-image"}
 
