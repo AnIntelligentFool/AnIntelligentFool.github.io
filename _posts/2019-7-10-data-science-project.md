@@ -13,7 +13,7 @@ tags:
 # Introduction
 
 First of all we need to fetch the Data from the table in the following URL: ["Postal Codes of Canada"](https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) Corresponding to the different postcodes of Toronto, for this purpose we will use BeautifulSoup library in Python. In addition, we will need to follow the next criteria:
-- The dataframe will consist of three columns: PostalCode, Borough, and Neighborhood
+- The data frame will consist of three columns: PostalCode, Borough, and Neighborhood
 - Only process the cells that have an assigned borough. Ignore cells with a borough that is Not assigned.
 - than one neighborhood can exist in one postal code area. For example, in the table on the Wikipedia page, you will notice that M5A is listed twice and has two neighborhoods: Harbourfront and Regent Park. These two rows will be combined into one row with the neighborhoods separated with a comma as shown in row 11 in the above table.
 - If a cell has a borough but a Not assigned neighborhood, then the neighborhood will be the same as the borough. So for the 9th cell in the table on the Wikipedia page, the value of the Borough and the Neighborhood columns will be Queen's Park.
@@ -106,7 +106,7 @@ Having as a result different things that surround those postcodes, for example t
 
 ![project4](/assets/images/PROJECT/surround.JPG){:class="img-responsive center-image"}
 
-Once we have all the different buildings (exactly 2258) I will group them by their Neighborhood to make it more readable and more understandable, and once it is grouped, I will apply One Hot Encoding to extract the dummie variables of all of those buildings. I will do that to help me after to know what is the most frequency thing in each neighborhood. For this, I will use the following code:
+Once we have all the different buildings (exactly 2258) I will group them by their Neighborhood to make it more readable and more understandable, and once it is grouped, I will apply One Hot Encoding to extract the dummy variables of all of those buildings. I will do that to help me after to know what is the most frequency thing in each neighborhood. For this, I will use the following code:
 
 ```python
 toronto_onehot = pd.get_dummies(toronto_venues[['Venue Category']], prefix="", prefix_sep="")
